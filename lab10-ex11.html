@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>  
+    <title>Lab 10</title>   
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">    
+    <link rel="stylesheet" href="css/lab10-ex11.css">
+    <script src="js/lab10-ex11.js"></script>
+</head>
+<body>
+
+    
+<main class="container">
+    <h1>Color Scheme Collection</h1>
+    <em>This exercise illustrates the use of localstorage in JavaScript. Select colors then use Add to Scheme Collection button. After adding several, try  the Test Color Scheme link </em>
+    <article class="scheme-group">    
+        <!-- Note the comment below provides the markup for a sample <section> element; it is there to show you
+             the markup that your javascript will need to generate -->
+       
+<!--<section class="scheme" data-scheme-num="0">
+    <div class="preview">
+        <div class="color-box" data-color-num="1" style="background-color:#8AC927"></div>
+        <div class="color-box" data-color-num="2" style="background-color:#BaBA39"></div>
+        <div class="color-box" data-color-num="3" style="background-color:#7BC4C6"></div>
+        <div class="color-box" data-color-num="4" style="background-color:#E08A2F"></div>
+        <div class="color-box" data-color-num="5" style="background-color:#C9303D"></div>
+    </div>
+    <div class="actions">
+        <a href="lab10-ex11-tester.html">Test Color Scheme</a>
+    </div>        
+</section>-->
+    </article>
+    <hr>
+    
+    <button id="btnRemoveAll">Remove All Schemes</button>
+
+</main>
+
+
+<aside>
+    <h2>Enter Color</h2>
+    <form class="colorEntry">
+        <fieldset>
+            <legend>Define a color scheme</legend>
+            <div>
+                <input type=color id="color1" name="color"/><span>#000000</span> <label for="color1">Color #1</label>
+            </div>
+            <div>
+                <input type=color id="color1" name="color"/><span>#000000</span> <label for="color1">Color #2</label>
+            </div>
+            <div>
+                <input type=color id="color1" name="color"/><span>#000000</span> <label for="color1">Color #3</label>
+            </div>
+            <div>
+                <input type=color id="color1" name="color"/><span>#000000</span> <label for="color1">Color #4</label>
+            </div>
+            <div>
+                <input type=color id="color1" name="color"/><span>#000000</span> <label for="color1">Color #5</label>
+            </div>  
+            <hr>
+            <button type=submit>Add to Scheme Collection</button>
+			<button type="reset">Reset Scheme</button>
+        </fieldset>
+    </form>
+</aside>
+</body>
+</html>

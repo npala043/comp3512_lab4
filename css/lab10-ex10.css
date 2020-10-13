@@ -1,0 +1,36 @@
+body {
+   background-color: #e6e9f0;
+
+   margin: 10px;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Source Sans Pro', sans-serif;  
+   font-weight: 400;
+   font-size: 1.2rem;
+}
+h1 {
+   font-size: 1.5rem;
+}
+h2 {
+   font-size: 1.2rem;
+}
+button {
+   background:    #e05915;
+   border-radius: 11px;
+   border-color: #e05915;
+   padding:       10px 32px;
+   color:         #e6e9f0;
+   display:       block;
+   font-size:     19px;
+   text-align:    center;  
+   margin-top:    10px;  
+ }
+ select {
+   height: 2rem;
+   margin: 0.5rem
+ }
+ #filters {
+   margin: 0;
+   padding: 15px;     
+    background-color: #bccbde;
+ }
